@@ -1,0 +1,25 @@
+{
+    "name": "terminal",
+    "author": "Kuvix Developer",
+    "version": "1.0.0",
+    "type": "c-app",
+    "source": "main.c",
+    "compiler": "gcc",
+    "c-flags": [
+        "-m32",
+        "-ffreestanding",
+        "-fno-pie",
+        "-fno-stack-protector",
+        "-nostdlib",
+        "-I~/.kry/include",
+        "-O2"
+    ],
+    "linker-flags": [
+        "-m",
+        "elf_i386",
+        "-T",
+        "linker.ld",
+        "--oformat",
+        "binary"
+    ]
+}

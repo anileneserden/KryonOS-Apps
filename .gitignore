@@ -1,0 +1,16 @@
+# --- Build Directories ---
+build/
+**/build/
+
+# --- Compiled Object & Binary Files ---
+*.o
+*.bin
+*.elf
+*.kef
+
+# --- IDE & Editor Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
