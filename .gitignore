@@ -14,3 +14,6 @@ build/
 *.swp
 *.swo
 .DS_Store
+
+# --- Text Files ---
+*.txt
